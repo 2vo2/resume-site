@@ -3,57 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Резюме</title>
+    <title data-uk="Резюме" data-en="Resume">Резюме</title>
     <link rel="stylesheet" href="style.css">
+    <script src="lang.js" defer></script>
 </head>
 <body>
-
     <section class="video-section">
         <video controls>
             <source src="video.mp4" type="video/mp4">
-            Ваш браузер не підтримує відео.
+            <span data-uk="Ваш браузер не підтримує відео." data-en="Your browser does not support the video.">
+                Ваш браузер не підтримує відео.
+            </span>
         </video>
     </section>
 
     <nav class="social-links">
-        <a href="https://github.com/your-profile" target="_blank">GitHub</a>
-        <a href="https://t.me/your-profile" target="_blank">Telegram</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-        <a href="mailto:your-email@gmail.com">Gmail</a>
+        <a href="https://github.com/2vo2" target="_blank">GitHub</a>
+        <a href="https://t.me/zvoznikov22" target="_blank">Telegram</a>
+        <a href="https://linkedin.com/in/yehor-zvoznikov-19a2b2245" target="_blank">LinkedIn</a>
+        <a href="mailto:egorzvoznikov@gmail.com">Gmail</a>
     </nav>
 
     <section class="projects">
         <div class="project">
-            <h3>Проєкт 1</h3>
-            <p>Короткий опис проєкту.</p>
-            <a href="https://yourproject.com" target="_blank">Детальніше</a>
+            <h3>Tower Defense</h3>
+            <p data-uk="Класичний TD, з базовими механіками та генерацією карти."
+               data-en="Classic TD with basic mechanics and map generation.">
+               Класичний TD, з базовими механіками та генерацією карти.
+            </p>
+            <a href="https://github.com/2vo2/TowerDefenseForCourse" target="_blank"
+               data-uk="Детальніше" data-en="More">Детальніше</a>
         </div>
         <div class="project">
-            <h3>Проєкт 2</h3>
-            <p>Короткий опис проєкту.</p>
-            <a href="https://yourproject.com" target="_blank">Детальніше</a>
+            <h3>2D Platformer</h3>
+            <p data-uk="2D Platformer з механікою стрільби, патрулюючими ворогами та анімаціями."
+               data-en="2D platformer with shooting, patrolling enemies, and animations.">
+               2D Platformer з механікою стрільби, патрулюючими ворогами та анімаціями.
+            </p>
+            <a href="https://github.com/2vo2/2DGameForCourse" target="_blank"
+               data-uk="Детальніше" data-en="More">Детальніше</a>
         </div>
         <div class="project">
-            <h3>Проєкт 3</h3>
-            <p>Короткий опис проєкту.</p>
-            <a href="https://yourproject.com" target="_blank">Детальніше</a>
-        </div>
-        <div class="project">
-            <h3>Проєкт 4</h3>
-            <p>Короткий опис проєкту.</p>
-            <a href="https://yourproject.com" target="_blank">Детальніше</a>
-        </div>
-        <div class="project">
-            <h3>Проєкт 5</h3>
-            <p>Короткий опис проєкту.</p>
-            <a href="https://yourproject.com" target="_blank">Детальніше</a>
-        </div>
-        <div class="project">
-            <h3>Проєкт 6</h3>
-            <p>Короткий опис проєкту.</p>
-            <a href="https://yourproject.com" target="_blank">Детальніше</a>
+            <h3>Doom 1993</h3>
+            <p data-uk="Клон культової гри, з використанням ScriptableObject."
+               data-en="Clone of the cult game using ScriptableObject.">
+               Клон культової гри, з використанням ScriptableObject.
+            </p>
+            <a href="https://github.com/2vo2/Doom1993" target="_blank"
+               data-uk="Детальніше" data-en="More">Детальніше</a>
         </div>
     </section>
+
+    <!-- Перемикач мов -->
+    <div class="language-switcher">
+        <label for="lang">🌐</label>
+        <select id="lang">
+            <option value="uk">Українська</option>
+            <option value="en">English</option>
+        </select>
+    </div>
 
 </body>
 </html>

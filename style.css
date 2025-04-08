@@ -21,7 +21,7 @@ video {
     padding: 15px;
     margin: 20px auto;
     width: 80%;
-    max-width: 1000px;
+    max-width: 900px;
     border-radius: 10px;
     border: 2px solid #300000;
     display: flex;
@@ -95,4 +95,18 @@ video {
     video {
         width: 100%;
     }
+}
+
+.language-switcher {
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.language-switcher select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid #300000;
+    background-color: #e1e3d8;
+    color: #300000;
+    font-weight: bold;
 }
